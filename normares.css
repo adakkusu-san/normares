@@ -1,0 +1,160 @@
+/*! normares.css v0.0.1 | now with opinions and no comments ww */
+html{font-size:100%;
+/*font-family:Helvetica,Arial,
+Roboto,
+Ubuntu,
+Cantarell,
+'Noto Sans',
+Oxygen,
+sans-serif;*/
+font-family:sans-serif;
+overflow-y:scroll;
+word-wrap:break-word;
+line-height:1.15;
+color:#fff}
+body{/*margin:8px auto;*/
+margin:auto;
+/*padding:1em;*/
+padding:8px;
+background:#000;
+max-width:960px}
+body,table{font-size:14px}
+table{border-collapse:collapse;border-spacing:0}
+th{font-weight:bold;background:#333}
+th,td{padding:2px 4px;border:1px solid #333}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
+summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+img,iframe{border:0}
+iframe,img,input,select,textarea,video,canvas,audio,embed,object{height:auto;max-width:100%}
+audio,canvas,iframe,img,svg,video{vertical-align:middle}
+progress,sub,sup{vertical-align:baseline}
+[hidden],template,.hidden{display:none}
+a{background-color:transparent}
+a:focus{outline:thin dotted}
+a:hover,a:active{outline:0}
+h1{font-size:2em;margin:.67em 0}
+h2{font-size:1.5em;margin:.83em 0}
+h3{font-size:1.17em;margin:1em 0}
+h4{font-size:1em;margin:1.33em 0}
+h5{font-size:.83em;margin:1.67em 0}
+h6{font-size:.75em;margin:2.33em 0}
+h1,h2,h3,h4,h5,h6{line-height:1.15}
+abbr[title]{border-bottom:none;
+text-decoration:underline;
+text-decoration:underline dotted;
+cursor:help}
+b,strong{font-weight:bold}
+blockquote{margin:1em 16px}
+i,em,dfn{font-style:italic}
+mark{background-color:#337;color:#000}
+/*q{quotes:none}
+q:before,q:after{content:'';content:none}*/
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative}
+sub{bottom:-.25em}
+sup{top:-.5em}
+dl,p,pre,ul,ol{margin:1em 0}
+article,aside,section{margin:2em 0}
+details,dl,menu,ol,ul{padding:0 0 0 16px}
+dd{margin:0 0 0 16px}
+nav ul,nav ol{list-style:none;padding:0}
+dl dl,dl ol,dl ul,ol dl,ol ol,ol ul,ul dl,ul ol,ul ul{margin:0}
+figure{margin:1em 40px}
+hr{margin:.5em auto;
+height:0;
+width:75%;
+display:block;
+padding:0;
+color:#333;
+border:0;
+border-top:1px solid #333}
+pre,code,kbd,samp{
+/*font-family:Consolas,
+'Roboto Mono',
+'Ubuntu Monospace',
+'Noto Mono',
+'Oxygen Mono',
+'Liberation Mono',
+monospace;*/
+font-family:monospace,monospace;
+font-size:1em}
+pre,textarea{overflow:auto}
+pre{white-space:pre}
+form{margin:0}
+button,input,select,textarea{
+font-size:1em;
+line-height:1.15;
+margin:0;
+padding:.25em .375em}
+button,input,hr{overflow:visible}
+button,select{text-transform:none}
+button,input[type="button"],
+input[type="checkbox"],
+input[type="radio"],
+input[type="reset"],
+input[type="submit"],
+select{box-sizing:border-box}
+button,input[type="button"],
+input[type="reset"],
+input[type="submit"]{cursor:pointer}
+input[type="text"],
+input[type="password"],
+textarea{box-sizing:content-box}
+input[type="checkbox"],input[type="radio"]{padding:0}
+fieldset{border:1px solid #2f2f2f;margin:0 2px;padding:.35em .75em .625em}
+legend{
+color:inherit;
+padding:0;
+box-sizing:border-box;
+display:table;
+max-width:100%;
+white-space:normal;
+margin:0}
+dialog{
+background-color:black;
+border:solid;
+color:white;
+display:block;
+height:auto;
+left:0;
+margin:auto;
+padding:1em;
+position:absolute;
+right:0;
+max-width:100%}
+dialog:not([open]){display:none}
+::-moz-selection{background-color:#032b4c;color:#b3d4fc;text-shadow:none}
+::selection{background-color:#032b4c;color:#b3d4fc;text-shadow:none}
+[aria-busy="true"]{cursor:progress}
+[aria-controls]{cursor:pointer}
+[aria-disabled="true"],[disabled]{cursor:default}
+[aria-hidden="false"][hidden]{display:initial}
+[aria-hidden="false"][hidden]:not(:focus){clip:rect(0 0 0 0);display:inherit;position:absolute}
+.cf:before,.cf:after{content:"";display:table}.cf:after{clear:both}
+ins,del:hover{text-decoration:none}
+del,ins{padding:.2em}del{background:#522}ins{background:#252}
+.browserupgrade{margin:.2em 0;background:#333;color:#fff;padding:.2em 0}
+.sr-only{
+border:0;
+clip:rect(0,0,0,0);
+height:1px;
+margin:-1px;
+overflow:hidden;
+padding:0;
+position:absolute;
+white-space:nowrap;
+width:1px}
+.sr-only.focusable:active,
+.sr-only.focusable:focus{
+clip:auto;
+height:auto;
+margin:0;
+overflow:visible;
+position:static;
+white-space:inherit;
+width:auto}
+.invisible{
+visibility:hidden}
