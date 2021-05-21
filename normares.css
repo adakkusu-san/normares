@@ -1,4 +1,5 @@
-/*! normares.css v0.0.1 | now with opinions and no comments ww */
+/*! normares.css | github.com/adakkusu-san */
+:root{color-scheme:dark;scrollbar-color:dark}
 html{font-size:100%;
 /*font-family:Helvetica,Arial,
 Roboto,
@@ -11,12 +12,12 @@ font-family:sans-serif;
 overflow-y:scroll;
 word-wrap:break-word;
 line-height:1.15;
-color:#fff}
+color:#d7d7d7}
 body{/*margin:8px auto;*/
 margin:auto;
 /*padding:1em;*/
 padding:8px;
-background:#000;
+background:#070707;
 max-width:960px}
 body,table{font-size:14px}
 table{border-collapse:collapse;border-spacing:0}
@@ -97,9 +98,6 @@ input[type="radio"],
 input[type="reset"],
 input[type="submit"],
 select{box-sizing:border-box}
-button,input[type="button"],
-input[type="reset"],
-input[type="submit"]{cursor:pointer}
 input[type="text"],
 input[type="password"],
 textarea{box-sizing:content-box}
@@ -126,8 +124,8 @@ position:absolute;
 right:0;
 max-width:100%}
 dialog:not([open]){display:none}
-::-moz-selection{background-color:#032b4c;color:#b3d4fc;text-shadow:none}
-::selection{background-color:#032b4c;color:#b3d4fc;text-shadow:none}
+/*::-moz-selection{background-color:#032b4c;color:#b3d4fc;text-shadow:none}
+::selection{background-color:#032b4c;color:#b3d4fc;text-shadow:none}*/
 [aria-busy="true"]{cursor:progress}
 [aria-controls]{cursor:pointer}
 [aria-disabled="true"],[disabled]{cursor:default}
@@ -158,3 +156,5 @@ white-space:inherit;
 width:auto}
 .invisible{
 visibility:hidden}
+a:link,a:visited{color:#96f;text-decoration:none}
+a:hover,a:active{color:#b9f;text-decoration:underline}
